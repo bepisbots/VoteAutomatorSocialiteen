@@ -6,6 +6,7 @@
 // @author       You
 // @match        https://www.socialiteen.com/?p=12563
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=socialiteen.com
+// @downloadURL  https://github.com/bepisbots/VoteAutomatorSocialiteen/raw/main/vote-for-socialiteen.user.js
 // @grant        GM_cookie
 // ==/UserScript==
 
