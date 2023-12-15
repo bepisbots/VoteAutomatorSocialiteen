@@ -16,7 +16,8 @@
     const votingConfig = {
         selectionTxt: 'Snhtqf%Utwhjqqf',
         votedAlreadyText: ['¡Tu voto ha sido registrado! Gracias por votar','Gracias, ya hemos contado tu voto.'],
-        defaultSecondsToWait: 120
+        defaultSecondsToWait: 120,
+        secondsIncrementOnfail: 5
     };
 
     let parentContainer;
@@ -163,7 +164,6 @@
         function displayCountdown() {
             if (currentSecond <= seconds) {
                 const additionalMessage = messageFunction ? messageFunction(currentSecond) : '';
-                console.log(`Esperando: ${seconds - currentSecond} segundos faltantes - ${additionalMessage}`);
                 updateSecondsRemaining(seconds - currentSecond);
                 currentSecond += 1;
                 setTimeout(displayCountdown, 1000); // Display countdown every 5 seconds
@@ -190,7 +190,7 @@
         }
         successHistory[secondsToWait] = successHistory[secondsToWait] - 1;
         if (successHistory[secondsToWait] < 0) {
-            increaseSecondsToWait(2);
+            increaseSecondsToWait(votingConfig.secondsIncrementOnfail);
         } else if (successHistory[secondsToWait - 1] === undefined || successHistory[secondsToWait - 1] >= -1) {
             increaseSecondsToWait(-1);
         } else {
@@ -289,3 +289,4 @@
 
     document.addEventListener('DOMContentLoaded', init);
 })();
+
