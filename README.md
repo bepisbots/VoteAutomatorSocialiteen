@@ -20,20 +20,11 @@ Tampermonkey es una extensión que te permite ejecutar scripts personalizados en
 
 ## Instalación del Script
 
-Una vez que Tampermonkey esté instalado y activado, sigue estos pasos para instalar el script de Automatizador de Votos para Socialiteen:
+Para instalar el script de Automatizador de Votos para Socialiteen, simplemente haz clic en el siguiente enlace:
 
-1. Abre este enlace: [Enlace al script en GitHub](https://github.com/bepisbots/VoteAutomatorSocialiteen/vote-for-socialiteen.user.js).
-2. Haz clic en el botón "Raw" para ver el código fuente del script.
-3. Copia todo el código.
+[Instalar el script](https://github.com/bepisbots/VoteAutomatorSocialiteen/raw/main/vote-for-socialiteen.user.js)
 
-Ahora, para agregar el script a Tampermonkey:
-
-1. Haz clic en el ícono de Tampermonkey en tu barra de herramientas.
-2. Selecciona "Crear un nuevo script".
-3. Elimina cualquier código existente en el editor y pega el código copiado del script de Automatizador de Votos para Socialiteen.
-4. Haz clic en "Archivo" y luego en "Guardar" (o simplemente presiona `Ctrl + S`).
-
-¡Listo! El script está instalado y listo para usar.
+Esto abrirá Tampermonkey y te ofrecerá instalar el script automáticamente. Confirma la instalación y el script estará listo para usar.
 
 ## Uso del Script
 
