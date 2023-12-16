@@ -10,7 +10,7 @@ Tampermonkey es una extensión que te permite ejecutar scripts personalizados en
    Asegúrate de que estás usando un navegador compatible con Tampermonkey, como Google Chrome, Mozilla Firefox, Microsoft Edge o Safari.
 
 2. **Instalación de Tampermonkey:**
-   - Para **Google Chrome**, ve a la [Chrome Web Store](https://chrome.google.com/webstore/detail/tampermonkey) y haz clic en "Agregar a Chrome".
+   - Para **Google Chrome**, ve a la [Chrome Web Store](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?pli=1) y haz clic en "Agregar a Chrome".
    - Para **Mozilla Firefox**, visita la [página de descarga de Tampermonkey](https://addons.mozilla.org/firefox/addon/tampermonkey/) y haz clic en "Agregar a Firefox".
    - Para **Microsoft Edge**, busca Tampermonkey en la tienda de extensiones de Edge y sigue las instrucciones de instalación.
    - Para **Safari**, descarga Tampermonkey desde la [página oficial](https://apps.apple.com/us/app/tampermonkey/id1482490089).
